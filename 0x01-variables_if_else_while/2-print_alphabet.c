@@ -7,8 +7,8 @@
 int main(void)
 {
 	int a;
-	putchar a;
+
 	for(a = 'a'; a <= 'z'; a++)
-	putchar("The alphnet in lowercases are %c\n", a);
+	putchar(a);
 	return (0);
 }
