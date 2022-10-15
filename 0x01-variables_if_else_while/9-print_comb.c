@@ -15,11 +15,10 @@ int main(void)
 			for (a = '1'; a <= '9'; a++)
 			{
 				putchar(a);
-				putchar(',');
+				putchar(' ,');
 			}
 		}
 	}
-	putchar (' ');
 	putchar ('\n');
 	return (0);
 }
