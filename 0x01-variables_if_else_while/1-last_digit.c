@@ -12,7 +12,7 @@ int main(void)
 
 	srand(time(0));
 	a = 0;
-	a = rand() % 20;
+	a = rand() % 10;
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if (a > 8)
