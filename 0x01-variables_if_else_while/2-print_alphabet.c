@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char a;
+	int a;
 	for(a = 'a'; a <= 'z'; a++)
 	putchar("The alphnet in lowercases are %c\n", a);
 	return (0);
