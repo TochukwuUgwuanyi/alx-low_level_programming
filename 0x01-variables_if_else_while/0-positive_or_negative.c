@@ -23,7 +23,7 @@ int main(void)
 	} else
 
 	{
-		printf("n is negative\n")
+		printf("n is negative\n");
 	}
 	printf("value of n is : %d\n", n);
 	
