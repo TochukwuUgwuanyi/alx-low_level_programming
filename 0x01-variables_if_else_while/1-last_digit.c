@@ -11,9 +11,8 @@ int main(void)
 	int n, a;
 
 	srand(time(0));
-	a = 0;
-	a = rand() % 10;
 	n = rand() - RAND_MAX / 2;
+	a = n % 10;
 	/* your code goes there */
 	if (a > 8)
 	{
