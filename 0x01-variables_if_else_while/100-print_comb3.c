@@ -11,7 +11,7 @@ int main(void)
 	for (a = '0'; a <= '8'; a++)
 	{
 		for (b = '0'; b <= '8'; b++)
-		//if (a != b)
+		/*if (a != b)*/
 		{
 			putchar(a);
 			putchar(b);
