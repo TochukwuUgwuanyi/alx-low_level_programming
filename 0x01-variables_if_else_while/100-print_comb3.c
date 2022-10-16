@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Description: main - print all possible different commbinations of two-digit numbers
+ * Description: main -print possible different commbinations of two-digit numbers
  *
  * Return: Always 0 (Success)
  */
@@ -10,7 +10,7 @@ int main(void)
 
 	for (a = '0'; a < '9'; a++)
 	{
-		for (b = '0'; b < 'b'; b++)
+		for (b = '0'; b < '9'; b++)
 		if (a != b)
 		{
 			putchar(a);
