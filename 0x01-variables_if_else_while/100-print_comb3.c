@@ -13,7 +13,8 @@ int main(void)
 		for (b = '0'; b < 'b'; b++)
 		if (a != b)
 		{
-			putchar((a); (b));
+			putchar(a);
+			putchar(b);
 			putchar(',');
 			putchar(' ');
 
