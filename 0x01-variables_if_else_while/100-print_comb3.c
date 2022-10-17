@@ -18,7 +18,7 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-			if (a = 89)
+			if (a == 8 || b == 9)
 			{
 				continue;
 			}
