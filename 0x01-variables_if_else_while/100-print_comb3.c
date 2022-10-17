@@ -15,9 +15,12 @@ int main(void)
 			{
 				putchar(a);
 				putchar(b);
-				continue;
 				putchar(',');
 				putchar(' ');
+			}
+			if (a = 89)
+			{
+				continue;
 			}
 	}
 	return (0);
