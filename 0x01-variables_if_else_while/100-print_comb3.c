@@ -15,12 +15,12 @@ int main(void)
 			{
 				putchar(a);
 				putchar(b);
-			if (a < 9)
-			{
-				putchar(',');
-				putchar(' ');
-				putchar('\n');
-			}
+				if (a < '9')
+				{
+					putchar(',');
+					putchar(' ');
+					putchar('\n');
+				}
 			}
 	}
 	return (0);
