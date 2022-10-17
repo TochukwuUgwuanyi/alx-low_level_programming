@@ -11,14 +11,13 @@ int main(void)
 	for (a = '0'; a < '8'; a++)
 	{
 		for (b = '0'; b < '8'; b++)
-		if (a != b)( b != a)
-		{
-			putchar(a);
-			putchar(b);
-			putchar(',');
-			putchar(' ');
-
-		}
+			if (a != b)
+			{
+				putchar(a);
+                                putchar(b);
+				putchar(',');
+				putchar(' ');
+			}
 	}
 	putchar ('\n');
 	return (0);
