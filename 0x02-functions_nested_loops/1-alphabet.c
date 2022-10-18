@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * Description: main - prints the alphabet, in lowercase
+ * Description: main - prints the alphabet, in lowercase using 
  *
  * Return: Always 0 (success).
  */
 
 void print_alphabet(void)
-/* program that print */
+
 {
 	int i;
 
