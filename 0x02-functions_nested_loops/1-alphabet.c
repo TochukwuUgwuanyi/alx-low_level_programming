@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- * Description: main - prints_alphabet, in lowercase using _putchar
+ * main-Start point
+ *
+ * Description: main - prints_alphabet, in lowercase using _putchair
  *
  * Return: Always 0 (success).
  */
