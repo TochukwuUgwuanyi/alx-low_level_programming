@@ -2,7 +2,7 @@
 /**
  * main-Start point
  *
- * Description: main - prints_alphabet, in lowercase using _putchair
+ * Description: main - prints_alphabet, in lowercase using _putchar
  *
  * Return: Always 0 (success).
  */
