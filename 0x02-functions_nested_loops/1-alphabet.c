@@ -1,17 +1,19 @@
 #include "main.h"
+
 /**
- * main-Start point
+ * print_alphabet - print alphabet 10 times
  *
- * Description: main - prints_alphabet, in lowercase using _putchar
- *
- * Return: Always 0 (success).
+ * Return: Always 0 (Success)
  */
+
 void print_alphabet(void)
-
 {
-	int a;
+	int i;
 
-	for (a = 'a'; a <= 'z'; a++)
-	_putchar (a);
-	_putchar ('\n');
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		_putchar(i);
+	}
+	_putchar('\n');
+
 }
