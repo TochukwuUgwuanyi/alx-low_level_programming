@@ -7,6 +7,6 @@
 int main(void)
 
 {
-	_putchar('m');
+	_putchar('_putchar');
 	return (0);
 }
