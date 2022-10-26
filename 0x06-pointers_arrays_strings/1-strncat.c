@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strncat - concatenates two string together
- * @src: parameter to append to dest
+ * @src:  parameter to append to dest
  * @dest: parameter to be appended to
  * @n: maximum number bytes usable
  * Return: Always 0.
