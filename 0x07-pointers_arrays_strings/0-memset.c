@@ -1,8 +1,8 @@
 #include "main.h"
 #include <string.h>
 /**
- * *_memset -used to fill a block of memory with a particular value
- * @*s:  parameter for starting address of memory to be filled
+ * *_memset -used to fill a memory with a particular value
+ * @*s:  parameter for address of memory to be filled
  * @b: parameter to be filled
  * @n: maximum number bytes usable
  * Return: Always 0.
