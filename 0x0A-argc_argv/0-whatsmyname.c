@@ -6,7 +6,6 @@
  * @argv: argument vectors
  * Return: 0 on success
  */
-
 int main(int argc, char *argv[])
 {
 	int i;
