@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main -used to fill memory with particular value
- * @argc:  contains total number of argument/parameter
+ * main - program prints its own name
+ * @argc:  contains total number of argument
  * @*argv: array of strings
  * Return: 0 on success
  */
