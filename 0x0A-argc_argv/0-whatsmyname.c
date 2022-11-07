@@ -2,7 +2,7 @@
 /**
  * main - program prints its own name
  * @argc:  contains total number of argument
- * @*argv: array of strings
+ * @argv: array of strings
  * Return: 0 on success
  */
 
