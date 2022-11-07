@@ -1,8 +1,9 @@
+#include "main.h"
 #include <stdio.h>
 /**
  * main - program prints its own name
  * @argc:  contains total number of argument
- * @argv: array of strings
+ * @argv: argument vectors
  * Return: 0 on success
  */
 
