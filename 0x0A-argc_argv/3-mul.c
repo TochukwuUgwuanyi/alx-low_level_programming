@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main -multiplies 2 number&prints result
- * @argc:  contain exactly 2 numbers of argument
- * @argv: argument vectors
+ * main -multiplies two number&prints result
+ * @argc:  contain exactly two numbers of argument
+ * @argv: argument vector
  * Return: 0 on success, 1 on failure
  */
 int main(int argc, char *argv[])
