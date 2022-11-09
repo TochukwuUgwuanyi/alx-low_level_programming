@@ -1,8 +1,9 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - multiplies 2 number and prints result
- * @argc:  contains exactly 2 numbers of argument
+ * main -multiplies 2 number&prints result
+ * @argc:  contain exactly 2 numbers of argument
  * @argv: argument vectors
  * Return: 0 on success, 1 on failure
  */
