@@ -1,23 +1,31 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * main -adds two number&prints result
- * @argc:  contain exactly two numbers of argument
+ * main - adds two numbers and prints result
+ * @argc: The number of arguments passed to the program.
  * @argv: argument vector
  * Return: 0 on success, 1 on failure
  */
-
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	int	a, b;
+	int num, digit, sum = 0;
 
-	if (argc != 3) 
+	for (num = 1; num < argc; num++)
 	{
-		printf("Error\n");
-		return (1);
+		for (digit = 0; argv[num][digit]; digit++)
+		{
+			if (argv[num][digit] < '0' || argv[num][digit] > '9')
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+
+		sum += atoi(argv[num]);
 	}
-	a = atoi(argv[1]);
-	b = atoi(argv[2]);
-	printf ("%d\n", a + b);
+
+	printf("%d\n", sum);
+
 	return (0);
 }
