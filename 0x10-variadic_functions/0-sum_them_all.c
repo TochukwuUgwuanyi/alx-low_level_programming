@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 
 /**
- * sum_them_all - sums all of it's argument
+ * sum_them_all - sums all of it's argument.
  *
  * @n: unsigned int type variable constant
  * Return: sum on success, otherwise 0.
@@ -11,7 +11,7 @@ int sum_them_all(const unsigned int n, ...)
 	unsigned int i;
 	int sum;
 	va_list add;
-	
+
 	if (n > 0)
 	{
 		va_start(add, n);
@@ -25,6 +25,6 @@ int sum_them_all(const unsigned int n, ...)
 	}
 	else
 		return (0);
-	
+
 	return (sum);
 }
