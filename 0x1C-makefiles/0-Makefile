@@ -1,3 +1,4 @@
-#Makefile
-school: main.c m.h school.c
-	gcc main.c school.c -o school
+#makefile
+
+school: main.c school.c
+	gcc school.c main.c -o school
