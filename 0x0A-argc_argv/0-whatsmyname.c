@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
+
 /**
   * main - Entry point
   * Description: Prints program name followed by a new line
